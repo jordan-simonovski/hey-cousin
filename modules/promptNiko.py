@@ -27,7 +27,8 @@ questions = [
 	"Cousin {0}, we are family. We should be like family and eat together. How about it?",
 	"{0} we should eat together.",
 	"Cousin {0}, we are family. We should be like family and eat together. How about it?",
-	"Cousin, you really want to experience Australia, you must see a show here. How about it {0}?"
+	"Cousin, you really want to experience Australia, you must see a show here. How about it {0}?",
+	"Hey {0}! Do you want some of my :banana: ?"
 	]
 
 def askQuestion():
