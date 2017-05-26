@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "app_function": "run.app", 
+        "aws_region": "ap-southeast-2", 
+        "profile_name": "aws profile", 
+        "s3_bucket": "zappa-hey-cousin-slackbot",
+        "environment_variables": {
+            "slack_webhook": "webhookurl",
+            "user_id": "slack user id",
+            "user_name": "niko"
+        },
+        "events": [
+            {
+               "function": "run.heyNiko", 
+               "expression": "cron(45 1 * * ? *)" 
+            }
+        ]
+    }
+}
